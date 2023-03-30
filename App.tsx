@@ -1,8 +1,12 @@
 import React from "react";
 import { createTheme, ThemeProvider } from "@rneui/themed";
-import { SafeAreaView, Text } from "react-native";
+import { SafeAreaView, Text, StatusBar } from "react-native";
+import { Provider as PaperProvider } from "react-native-paper";
+
+import Home from "./components/Home";
 
 import "react-native-gesture-handler";
+
 const theme = createTheme({
   lightColors: {},
   darkColors: {},
@@ -11,11 +15,9 @@ const theme = createTheme({
 export default function App() {
   return (
     <SafeAreaView>
-      <SafeAreaView>
-        <ThemeProvider theme={theme}>
-          <Text>Hello, world</Text>
-        </ThemeProvider>
-      </SafeAreaView>
+      <ThemeProvider theme={theme}>
+        <Home />
+      </ThemeProvider>
     </SafeAreaView>
     //
   );
