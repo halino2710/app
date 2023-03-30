@@ -3,7 +3,7 @@ import { createTheme, ThemeProvider } from "@rneui/themed";
 import { SafeAreaView, Text, StatusBar } from "react-native";
 import { Provider as PaperProvider } from "react-native-paper";
 
-import Home from "./components/Home";
+import Home from "./Components/Home";
 
 import "react-native-gesture-handler";
 
