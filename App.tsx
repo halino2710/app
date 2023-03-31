@@ -2,7 +2,7 @@ import React from "react";
 import { createTheme, ThemeProvider } from "@rneui/themed";
 import { SafeAreaView } from "react-native";
 
-import Background from "./components/AboutUs/Background";
+import Mision from "./components/AboutUs/Mission";
 
 import "react-native-gesture-handler";
 
@@ -15,7 +15,7 @@ export default function App() {
   return (
     <SafeAreaView>
       <ThemeProvider theme={theme}>
-        <Background />
+        <Mision />
       </ThemeProvider>
     </SafeAreaView>
     //
