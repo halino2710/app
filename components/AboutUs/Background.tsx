@@ -11,9 +11,6 @@ import React from "react";
 import { ScrollView } from "react-native";
 
 const Background = () => {
-  console.log("Height: " + Dimensions.get("window").width);
-  console.log("Width: " + Dimensions.get("window").height);
-
   return (
     <ScrollView style={styles.container}>
       <View style={styles.contentContainer}>
