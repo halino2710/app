@@ -18,8 +18,8 @@ const Mision = () => {
           <Text style={styles.header}>Mission</Text>
           <Text style={styles.missionStatememt}>
             Our mission is helping academic institutions – through digital
-            transformation- transition away from traditional practices and adopt
-            emerging technologies into their ecosystem.
+            transformation – transition away from traditional practices and
+            adopt emerging technologies into their ecosystem.
           </Text>
           <Text style={styles.body}>
             At SchoolAll, our mission is to empower academic institutions with
@@ -73,10 +73,11 @@ const styles = StyleSheet.create({
 
   missionStatememt: {
     fontStyle: "italic",
-    fontSize: 20,
+    fontSize: 22,
     marginHorizontal: 10,
     marginVertical: 10,
     textAlign: "justify",
+    textDecorationLine: "underline",
   },
 
   body: {
