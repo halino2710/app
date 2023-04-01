@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
   visionStatememt: {
     fontStyle: "italic",
     fontSize: 22,
-    marginHorizontal: 10,
+    marginHorizontal: 20,
     marginVertical: 10,
     textAlign: "justify",
     textDecorationLine: "underline",

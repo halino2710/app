@@ -2,7 +2,11 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
-import { MaterialIcons, MaterialCommunityIcons } from "@expo/vector-icons";
+import {
+  MaterialIcons,
+  MaterialCommunityIcons,
+  Ionicons,
+} from "@expo/vector-icons";
 
 import Background from "../components/AboutUs/Background";
 import Mision from "../components/AboutUs/Mission";
@@ -31,14 +35,16 @@ const BottomTab = () => {
         tabBarInactiveTintColor: "#000",
         tabBarInactiveBackgroundColor: "#fff",
         headerShown: false,
+        tabBarLabelStyle: { fontSize: 15 },
       }}
     >
       <Bottom.Screen
         name="BackgroundScreen"
         component={BackgroundScreen}
         options={{
+          title: "Background",
           tabBarIcon: ({ size, color }) => (
-            <MaterialIcons name="home" size={size} color={color} />
+            <Ionicons name="globe-outline" size={size} color={color} />
           ),
         }}
       />
@@ -46,8 +52,9 @@ const BottomTab = () => {
         name="MissionScreen"
         component={MissionScreen}
         options={{
+          title: "Mission",
           tabBarIcon: ({ size, color }) => (
-            <MaterialIcons name="home" size={size} color={color} />
+            <Ionicons name="eye" size={size} color={color} />
           ),
         }}
       />
@@ -55,8 +62,13 @@ const BottomTab = () => {
         name="VisionScreen"
         component={VisionScreen}
         options={{
+          title: "Vision",
           tabBarIcon: ({ size, color }) => (
-            <MaterialIcons name="home" size={size} color={color} />
+            <MaterialCommunityIcons
+              name="telescope"
+              size={size}
+              color={color}
+            />
           ),
         }}
       />

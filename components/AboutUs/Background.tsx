@@ -22,7 +22,7 @@ const Background = () => {
           }}
         />
         <View style={styles.bodyContainer}>
-          <Text style={styles.header}>Background</Text>
+          <Text style={styles.header}>BACKGROUND</Text>
           <Text style={styles.body}>
             SchoolAll is a digital transformation company dedicated to helping
             academic institutions transition from manual and paper-based

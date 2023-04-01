@@ -15,7 +15,7 @@ const Mision = () => {
           }}
         />
         <View style={styles.bodyContainer}>
-          <Text style={styles.header}>Mission</Text>
+          <Text style={styles.header}>MISSION</Text>
           <Text style={styles.missionStatememt}>
             Our mission is helping academic institutions – through digital
             transformation – transition away from traditional practices and
@@ -60,7 +60,13 @@ const styles = StyleSheet.create({
     marginTop: 50,
   },
 
-  bodyContainer: { height: "80%", width: "100%", marginHorizontal: 10 },
+  bodyContainer: {
+    height: "80%",
+    width: "100%",
+    marginHorizontal: 10,
+    justifyContent: "center",
+    alignItems: "center",
+  },
 
   header: {
     textAlign: "center",
@@ -85,6 +91,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     color: "#000",
     marginHorizontal: 10,
+    marginVertical: 10,
     fontSize: 20,
     lineHeight: 25,
     fontFamily: "Roboto",
