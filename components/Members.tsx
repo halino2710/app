@@ -4,9 +4,10 @@ import {
   Text,
   View,
   Image,
-  StatusBar,
+  TouchableOpacity,
 } from "react-native";
 import React from "react";
+import { MaterialIcons } from "@expo/vector-icons";
 
 import { memeberData } from "../Model/data";
 
@@ -19,6 +20,38 @@ const Members = () => {
         renderItem={({ item }) => (
           <View style={styles.itemContainer}>
             <Image source={item.image} style={styles.image} />
+            <View style={styles.socialContainer}>
+              <TouchableOpacity
+                style={styles.social}
+                onPress={() => console.log("Facebook")}
+              >
+                {item.facebook}
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={styles.social}
+                onPress={() => console.log("Twitter")}
+              >
+                {item.twitter}
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={styles.social}
+                onPress={() => console.log("Github")}
+              >
+                {item.github}
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={styles.social}
+                onPress={() => console.log("LinkedIn")}
+              >
+                {item.linkedin}
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={styles.social}
+                onPress={() => console.log("Instagram")}
+              >
+                {item.instagram}
+              </TouchableOpacity>
+            </View>
             <Text style={styles.name}>{item.name}</Text>
             <Text style={styles.position}>{item.position}</Text>
           </View>
@@ -57,6 +90,16 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginTop: 10,
     padding: 5,
+  },
+
+  socialContainer: {
+    flexDirection: "row",
+    marginTop: 5,
+    justifyContent: "space-between",
+  },
+
+  social: {
+    marginHorizontal: 7,
   },
 
   position: {
