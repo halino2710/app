@@ -1,3 +1,6 @@
+import React from "react";
+import { MaterialIcons, MaterialCommunityIcons } from "@expo/vector-icons";
+
 export const servicesData = [
   {
     id: 1,
@@ -50,23 +53,43 @@ export const memeberData = [
     image: require("../assets/images/isaac.png"),
     name: "Isaac Johnson",
     position: "Chief Executive Officer",
+    facebook: <MaterialIcons name="facebook" size={25} />,
+    twitter: <MaterialCommunityIcons name="twitter" size={25} />,
+    instagram: <MaterialCommunityIcons name="instagram" size={25} />,
+    github: <MaterialCommunityIcons name="github" size={25} />,
+    linkedin: <MaterialCommunityIcons name="linkedin" size={25} />,
   },
   {
     id: 2,
     image: require("../assets/images/shelp_profile.png"),
     name: "Mohamed Shelpidy Kamara",
     position: "Chief Operating Officer",
+    facebook: <MaterialIcons name="facebook" size={25} />,
+    twitter: <MaterialCommunityIcons name="twitter" size={25} />,
+    instagram: <MaterialCommunityIcons name="instagram" size={25} />,
+    github: <MaterialCommunityIcons name="github" size={25} />,
+    linkedin: <MaterialCommunityIcons name="linkedin" size={25} />,
   },
   {
     id: 3,
     image: require("../assets/images/Afa-pearl.png"),
     name: "Afanwi Pearl",
     position: "Lead UI/UX Designer",
+    facebook: <MaterialIcons name="facebook" size={25} />,
+    twitter: <MaterialCommunityIcons name="twitter" size={25} />,
+    instagram: <MaterialCommunityIcons name="instagram" size={25} />,
+    github: <MaterialCommunityIcons name="github" size={25} />,
+    linkedin: <MaterialCommunityIcons name="linkedin" size={25} />,
   },
   {
     id: 4,
     image: require("../assets/images/hamed.png"),
     name: "Hamed Kemokai",
     position: "Leading Mobile Developer",
+    facebook: <MaterialIcons name="facebook" size={25} />,
+    twitter: <MaterialCommunityIcons name="twitter" size={25} />,
+    instagram: <MaterialCommunityIcons name="instagram" size={25} />,
+    github: <MaterialCommunityIcons name="github" size={25} />,
+    linkedin: <MaterialCommunityIcons name="linkedin" size={25} />,
   },
 ];
