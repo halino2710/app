@@ -37,9 +37,13 @@ const styles = StyleSheet.create({
   },
 
   itemContainer: {
+    backgroundColor: "white",
     alignItems: "center",
     margin: 10,
     padding: 10,
+    shadowColor: "#50062A",
+    elevation: 10,
+    borderRadius: 10,
   },
 
   image: {
