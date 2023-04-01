@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
   },
 
   content: {
-    height: 130,
-    fontSize: 15,
+    height: 187,
+    fontSize: 16,
   },
 });
