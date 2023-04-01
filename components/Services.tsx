@@ -32,8 +32,7 @@ export default Services;
 
 const styles = StyleSheet.create({
   mainContainer: {
-    paddingTop: 25,
-    margin: 10,
+    marginHorizontal: 10,
   },
 
   itemContainer: {

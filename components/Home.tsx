@@ -57,7 +57,7 @@ const Home = () => {
           lineHeight: 40,
           textAlign: "justify",
           marginHorizontal: 20,
-          marginTop: 50,
+          marginTop: 20,
         }}
       >
         We offer digital services to schools
@@ -81,7 +81,6 @@ export default Home;
 
 const styles = StyleSheet.create({
   container: {
-    top: StatusBar.currentHeight,
     backgroundColor: "#21005D",
     width: "100%",
     height: "100%",
@@ -91,7 +90,7 @@ const styles = StyleSheet.create({
   imageContainer: {
     marginTop: 20,
     width: "100%",
-    height: "50%",
+    height: "60%",
   },
 
   logo: {

@@ -49,7 +49,6 @@ export default Vision;
 
 const styles = StyleSheet.create({
   container: {
-    top: StatusBar.currentHeight,
     backgroundColor: "#fff",
   },
 

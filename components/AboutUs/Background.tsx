@@ -57,7 +57,6 @@ export default Background;
 
 const styles = StyleSheet.create({
   container: {
-    top: StatusBar.currentHeight,
     backgroundColor: "#fff",
   },
 

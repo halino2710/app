@@ -65,8 +65,7 @@ export default Members;
 
 const styles = StyleSheet.create({
   mainContainer: {
-    paddingTop: 25,
-    margin: 10,
+    marginHorizontal: 10,
   },
 
   itemContainer: {
